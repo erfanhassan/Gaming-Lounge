@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Lounge Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard">
+        <header class="master-header">
+            <h1>Gaming Lounge</h1>
+            <div class="master-stats">
+                <div class="stat-card">
+                    <span class="label">Time (Dhaka)</span>
+                    <span class="value" id="clock">00:00:00</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">Daily Revenue</span>
+                    <span class="value"><span id="daily-revenue">0</span> BDT</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">Total Run Time</span>
+                    <span class="value" id="total-run-time">0h 0m</span>
+                </div>
+            </div>
+        </header>
+        
+        <main class="console-grid" id="console-grid">
+            <!-- Consoles will be generated via JS -->
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
